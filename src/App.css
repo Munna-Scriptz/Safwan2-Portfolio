@@ -1,0 +1,32 @@
+/* ------------Common css----------- */
+body{
+  background-color: #F9F4F1;
+}
+/* ------------Banner----------- */
+#Banner{
+  background-image: url(../src/assets/images/BannerBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#NavLinks ul li a{
+  position: relative;
+}
+#NavLinks ul li a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--color-second);
+  width: 0%;
+  height: 1px;
+  transition: all ease-in-out 300ms;
+}
+#NavLinks ul li a:hover:after{
+    width: 100%;
+}
+
+
+
+
