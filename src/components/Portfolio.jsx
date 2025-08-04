@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <div id="TextHeader">
                     <CommonHead text={'My Portfolio'} bottomText={'My Work Example'} align={'items-center'}/>
                     <div id="NavLinks" className='flex items-center justify-center mt-[24px]'>
-                        <ul className='flex items-center gap-[30px] text-base text-primary font-vollkorn'>
+                        <ul className='flex items-center lg:gap-[30px] gap-3 text-base text-primary font-vollkorn'>
                             <li><Link to={'/'}>All</Link></li>
                             <li><Link to={'/'}>Branding</Link></li>
                             <li><Link to={'/'}>Photography</Link></li>
@@ -25,28 +25,28 @@ const Portfolio = () => {
                 </div>
                 {/* ------------Project Cards-------- */}
                 <div className='mt-[40px] flex items-center justify-center flex-wrap gap-[30px]'>
-                    <div className='relative w-[570px] h-[520px]'>
+                    <div className='relative w-[570px] lg:h-[520px]'>
                         <img src={portfolioImg1} alt="Image" />
                         <div className='absolute bottom-0 left-0 w-full py-[22px] px-[18px] bg-primary text-white'>
                             <h2 className='font-vollkorn font-semibold text-[24px]'>Motion Graphics</h2>
                             <p className='font-jost font-normal text-[16px] opacity-[0.7]'>Website</p>
                         </div>
                     </div>
-                    <div className='relative w-[570px] h-[520px]'>
+                    <div className='relative w-[570px] lg:h-[520px]'>
                         <img src={portfolioImg2} alt="Image" />
                         <div className='absolute bottom-0 left-0 w-full py-[22px] px-[18px] bg-primary text-white'>
                             <h2 className='font-vollkorn font-semibold text-[24px]'>Motion Graphics</h2>
                             <p className='font-jost font-normal text-[16px] opacity-[0.7]'>Website</p>
                         </div>
                     </div>
-                    <div className='relative w-[570px] h-[520px]'>
+                    <div className='relative w-[570px] lg:h-[520px]'>
                         <img src={portfolioImg3} alt="Image" />
                         <div className='absolute bottom-0 left-0 w-full py-[22px] px-[18px] bg-primary text-white'>
                             <h2 className='font-vollkorn font-semibold text-[24px]'>Motion Graphics</h2>
                             <p className='font-jost font-normal text-[16px] opacity-[0.7]'>Website</p>
                         </div>
                     </div>
-                    <div className='relative w-[570px] h-[520px]'>
+                    <div className='relative w-[570px] lg:h-[520px]'>
                         <img src={portfolioImg4} alt="Image" />
                         <div className='absolute bottom-0 left-0 w-full py-[22px] px-[18px] bg-primary text-white'>
                             <h2 className='font-vollkorn font-semibold text-[24px]'>Motion Graphics</h2>

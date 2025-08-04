@@ -9,7 +9,7 @@ import Service3 from '../assets/images/Service3.png'
 const MyService = () => {
   return (
     <>
-        <section id='My-Service' className='mt-[220px]'>
+        <section id='My-Service' className='lg:mt-[220px] mt-[120px]'>
             <div className="container">
                 <div className='flex items-center justify-center'>
                     <div className='w-[517px] text-center'>

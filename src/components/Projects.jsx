@@ -36,7 +36,7 @@ const Projects = () => {
     <>
         <section id='Projects' className='mt-[120px]'>
             <div className="container">
-                <div id="TextHeader" className='flex items-end justify-between'>
+                <div id="TextHeader" className='lg:flex lg:flex-row flex-col items-end justify-between'>
                     <CommonHead text={'Recent Projects'} bottomText={'My Recent Projects'}/>
                     <div className='flex items-center gap-[20px]'>
                         <button className=' hover:bg-second hover:text-white duration-[.3s] p-[15px] cursor-pointer'>
@@ -48,10 +48,10 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* -----------Project Cards------------ */}
-                <div className='flex gap-[30px] mt-[53px]'>
+                <div className='flex lg:flex-row flex-col gap-[30px] lg:mt-[53px] mt-[20px]'>
                     {
                         MyProjects.map((items , i)=>(
-                            <div key={i} className='w-[370px] '>
+                            <div key={i} className='lg:w-[370px] w-full '>
                                 <img src={items.image} alt="Image" />
                                 <div className='flex items-center justify-between mt-[20px]'>
                                     <p className='text-second text-[14px] font-jost'>By {items.username}</p>

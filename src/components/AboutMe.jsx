@@ -12,11 +12,11 @@ const AboutMe = () => {
     <>
         <section id='AboutMe' className='mt-[120px]'>
             <div className="container">
-                <div id="AllDiv" className='flex items-center justify-between'>
+                <div id="AllDiv" className='flex lg:flex-row flex-col items-center justify-between'>
                     <div id="LeftSide">
                         <img src={AboutMeImg} alt="GalleryImg" />
                     </div>
-                    <div id="RightSide" className='w-[570px]'>
+                    <div id="RightSide" className='lg:w-[570px] lg:mt-0 mt-5 w-full'>
                         <CommonHead text={'About Me'} bottomText={'I Enjoy Solving Problems With Scalable Solutions'}/>
                         <p className='text-[16px] text-primary opacity-[0.7]'>Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, sed quia non numquam eius modi tempora incidunt lao magnam aliquam quaerat voluptatem reprehenderit.</p>
                         <p className='text-[16px] text-primary opacity-[0.7] mt-[50px] mb-[67px]'>Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem reprehenderit non numquam eius.</p>
@@ -24,7 +24,7 @@ const AboutMe = () => {
                     </div>
                 </div>
                 {/* -------------Skill Meters----------- */}
-                <div className='mt-[80px] flex items-center justify-between'>
+                <div className='mt-[80px] flex lg:flex-row flex-col lg:gap-0 gap-5 items-center justify-between'>
                     <div className='flex flex-col gap-[24px] items-center'>
                         <img src={Skill2} alt="SkillMeter" />
                         <h2 className='text-[26px] text-primary font-semibold font-vollkorn'>Brand Design</h2>
