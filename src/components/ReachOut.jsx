@@ -8,19 +8,19 @@ const ReachOut = () => {
     <>
         <section id='ReachOut' className='mt-[120px]'>
             <div className="container">
-                <div id="AllDiv" className='flex items-center gap-[30px]'>
-                    <div id="LeftSide">
+                <div id="AllDiv" className='lg:flex items-center gap-[30px]'>
+                    <div id="LeftSide" className='lg:block hidden'>
                         <img src={ReachImg} alt="Image" />
                     </div>
                     <div id="RightSide">
                         <CommonHead text={'Get In Touch'} bottomText={'Feel Free to Contact'}/>
-                        <div className='flex items-center gap-[70px] mt-[40px]'>
-                            <input className='w-[300px] h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Name' type="user" />
-                            <input className='w-[300px] h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Email' type="email" />
+                        <div className='flex lg:flex-row flex-col lg:items-center gap-[70px] mt-[40px]'>
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Name' type="user" />
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Email' type="email" />
                         </div>
-                        <div className='flex items-center gap-[70px] mt-[57px]'>
-                            <input className='w-[300px] h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Phone' type="number" />
-                            <input className='w-[300px] h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Subject' type="text" />
+                        <div className='flex lg:flex-row flex-col lg:items-center gap-[70px] mt-[57px]'>
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Phone' type="number" />
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Subject' type="text" />
                         </div>
                         <div className='flex flex-col items-start gap-[70px] mt-[57px]'>
                             <input className='w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Message' type="text" />

@@ -17,7 +17,7 @@ const Footer = () => {
                     <div>
                         <img src={FooterLogo} alt="Logo" />
                     </div>
-                    <div className='text-[#fff] text-[18px] font-jost font-medium flex lg:gap-[18px] gap-[10px]'>
+                    <div className='text-[#fff] lg:text-[18px] text-sm font-jost font-medium flex lg:gap-[18px] gap-[8px]'>
                         <Link to={'/'}>Features</Link>
                         <span className='bg-[#ffffff34] w-[1px] h-[26px]'></span>
                         <Link to={'/'}>Pricing</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
                         <span className='bg-[#ffffff34] w-[1px] h-[26px]'></span>
                         <Link to={'/'}>Updates</Link>
                     </div>
-                    <div className='flex items-center gap-[24px] text-[20px]'>
+                    <div className='flex items-center gap-[24px]'>
                             <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white'>
                                 <FaFacebookF/>
                             </div>

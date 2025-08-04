@@ -9,7 +9,7 @@ const CommonHead = ({text , bottomText ,align}) => {
             <p className='font-vollkorn font-medium text-[18px] text-second'>{text}</p>
         </div>
         <div>
-            <h2 className='font-vollkorn font-medium text-[50px] text-primary leading-[60px]'>{bottomText}</h2>
+            <h2 className='font-vollkorn font-medium lg:text-[50px] text-[34px] text-primary leading-[60px]'>{bottomText}</h2>
         </div>
     </section>
   )

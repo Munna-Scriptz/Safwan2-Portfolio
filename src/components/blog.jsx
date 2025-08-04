@@ -40,10 +40,10 @@ const blog = () => {
                     <CommonHead text={'Latest Blogs'} bottomText={'Blog & Articles'} align={'items-center'}/>
                 </div>
                 {/* ------------Blog---------- */}
-                <div className='flex gap-[30px] mt-[53px]'>
+                <div className='flex lg:flex-row flex-col gap-[30px] mt-[53px]'>
                     {
                         MyBlog.map((items , i)=>(
-                            <div key={i} className='w-[370px] '>
+                            <div key={i} className='lg:w-[370px] w-full'>
                                 <img src={items.image} alt="Image" />
                                 <div className='flex items-center justify-between mt-[20px]'>
                                     <p className='text-second text-[14px] font-jost'>By {items.username}</p>
