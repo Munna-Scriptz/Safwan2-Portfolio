@@ -38,7 +38,7 @@ const Projects = () => {
             <div className="container">
                 <div id="TextHeader" className='lg:flex lg:flex-row flex-col items-end justify-between'>
                     <CommonHead text={'Recent Projects'} bottomText={'My Recent Projects'}/>
-                    <div className='flex items-center gap-[20px]'>
+                    <div className='flex items-center gap-[20px]' data-aos="fade-up">
                         <button className=' hover:bg-second hover:text-white duration-[.3s] p-[15px] cursor-pointer'>
                             <FaArrowLeft />
                         </button>
@@ -51,7 +51,7 @@ const Projects = () => {
                 <div className='flex lg:flex-row flex-col gap-[30px] lg:mt-[53px] mt-[20px]'>
                     {
                         MyProjects.map((items , i)=>(
-                            <div key={i} className='lg:w-[370px] w-full '>
+                            <Link to={'/'} key={i} className='lg:w-[370px] w-full' data-aos="fade-up">
                                 <img src={items.image} alt="Image" />
                                 <div className='flex items-center justify-between mt-[20px]'>
                                     <p className='text-second text-[14px] font-jost'>By {items.username}</p>
@@ -60,7 +60,7 @@ const Projects = () => {
                                 <h2 className='text-primary text-[24px] font-vollkorn font-medium mt-[14px]'>{items.title}</h2>
                                 <p className='text-primary text-[14px] font-jost mt-[11px] opacity-[0.7]'>By {items.details}</p>
                                 <Link className='text-primary text-[24px] font-vollkorn font-medium flex items-center gap-[6px] mt-[24px]' to={'/'}>View Case Studies <GoArrowRight/></Link>
-                            </div>
+                            </Link>
                         ))
                     }
                 </div>

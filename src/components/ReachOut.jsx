@@ -9,21 +9,21 @@ const ReachOut = () => {
         <section id='ReachOut' className='mt-[120px]'>
             <div className="container">
                 <div id="AllDiv" className='lg:flex items-center gap-[30px]'>
-                    <div id="LeftSide" className='lg:block hidden'>
+                    <div id="LeftSide" className='lg:block hidden' data-aos="fade-right">
                         <img src={ReachImg} alt="Image" />
                     </div>
                     <div id="RightSide">
                         <CommonHead text={'Get In Touch'} bottomText={'Feel Free to Contact'}/>
                         <div className='flex lg:flex-row flex-col lg:items-center gap-[70px] mt-[40px]'>
-                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Name' type="user" />
-                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Email' type="email" />
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Name' type="user" data-aos="fade-up"/>
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Enter Email' type="email" data-aos="fade-up"/>
                         </div>
                         <div className='flex lg:flex-row flex-col lg:items-center gap-[70px] mt-[57px]'>
-                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Phone' type="number" />
-                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Subject' type="text" />
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Phone' type="number" data-aos="fade-up"/>
+                            <input className='lg:w-[300px] w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Subject' type="text" data-aos="fade-up"/>
                         </div>
-                        <div className='flex flex-col items-start gap-[70px] mt-[57px]'>
-                            <input className='w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Message' type="text" />
+                        <div className='flex flex-col items-start gap-[70px] mt-[57px]' data-aos="fade-up">
+                            <input className='w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Message' type="text" data-aos="fade-up"/>
                             <Link className='bg-[#E5745D] text-white lg:py-[12px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D] hover:bg-primary hover:outline-primary hover:rounded-2xl duration-300' to={'/'}>Contact</Link>
                         </div>
                     </div>

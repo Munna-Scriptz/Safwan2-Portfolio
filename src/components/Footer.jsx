@@ -15,9 +15,9 @@ const Footer = () => {
                 <div id="FooterRow" className='flex flex-col items-center justify-center gap-[60px]'>
                     {/* --------First Column--------   */}
                     <Link to={'/'}>
-                        <img src={FooterLogo} alt="Logo" />
+                        <img src={FooterLogo} alt="Logo" data-aos="fade-up"/>
                     </Link>
-                    <div className='text-[#fff] lg:text-[18px] text-sm font-jost font-medium flex lg:gap-[18px] gap-[8px]'>
+                    <div className='text-[#fff] lg:text-[18px] text-sm font-jost font-medium flex lg:gap-[18px] gap-[8px]' data-aos="fade-up">
                         <Link to={'/'}>Features</Link>
                         <span className='bg-[#ffffff34] w-[1px] h-[26px]'></span>
                         <Link to={'/'}>Pricing</Link>
@@ -29,13 +29,13 @@ const Footer = () => {
                         <Link to={'/'}>Updates</Link>
                     </div>
                     <div className='flex items-center gap-[24px]'>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary' data-aos="fade-up">
                                 <FaFacebookF/>
                             </div>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary' data-aos="fade-up">
                                 <FaTwitter/>
                             </div>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary' data-aos="fade-up">
                                 <RiInstagramFill />
                             </div>
                         </div>

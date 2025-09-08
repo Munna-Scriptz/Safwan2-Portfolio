@@ -44,14 +44,16 @@ const blog = () => {
                     {
                         MyBlog.map((items , i)=>(
                             <div key={i} className='lg:w-[370px] w-full'>
-                                <img src={items.image} alt="Image" />
+                                <img src={items.image} alt="Image" data-aos="fade-up"/>
                                 <div className='flex items-center justify-between mt-[20px]'>
-                                    <p className='text-second text-[14px] font-jost'>By {items.username}</p>
-                                    <p className='text-primary text-[14px] font-jost'>{items.date}</p>
+                                    <p className='text-second text-[14px] font-jost' data-aos="fade-up">By {items.username}</p>
+                                    <p className='text-primary text-[14px] font-jost' data-aos="fade-up">{items.date}</p>
                                 </div>
-                                <h2 className='text-primary text-[24px] font-vollkorn font-medium mt-[14px]'>{items.title}</h2>
-                                <p className='text-primary text-[14px] font-jost mt-[11px] opacity-[0.7]'>By {items.details}</p>
-                                <Link className='text-primary text-[24px] font-vollkorn font-medium flex items-center gap-[6px] mt-[24px]' to={'/'}>Read More <GoArrowRight/></Link>
+                                <h2 className='text-primary text-[24px] font-vollkorn font-medium mt-[14px]' data-aos="fade-up">{items.title}</h2>
+                                <p className='text-primary text-[14px] font-jost mt-[11px] opacity-[0.7]' data-aos="fade-up">By {items.details}</p>
+                                <div data-aos="fade-up">
+                                    <Link className='text-primary text-[24px] font-vollkorn font-medium flex items-center gap-[6px] mt-[24px]' to={'/'}>Read More <GoArrowRight/></Link>
+                                </div>
                             </div>
                         ))
                     }
