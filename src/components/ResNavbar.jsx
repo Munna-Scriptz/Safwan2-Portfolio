@@ -8,7 +8,6 @@ import { RxCross2 } from "react-icons/rx";
 const ResNavbar = () => {
 
     const [menu , setMenu] = useState(false)
-    console.log(menu)
 
   return (
     <>
