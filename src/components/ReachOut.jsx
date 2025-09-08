@@ -24,7 +24,7 @@ const ReachOut = () => {
                         </div>
                         <div className='flex flex-col items-start gap-[70px] mt-[57px]'>
                             <input className='w-full h-[40px] outline-none border-b-1 border-[#00413D1A] font-jost' placeholder='Message' type="text" />
-                            <Link className='bg-[#E5745D] text-white lg:py-[12px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D]' to={'/'}>Contact</Link>
+                            <Link className='bg-[#E5745D] text-white lg:py-[12px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D] hover:bg-primary hover:outline-primary hover:rounded-2xl duration-300' to={'/'}>Contact</Link>
                         </div>
                     </div>
                 </div>

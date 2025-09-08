@@ -14,9 +14,9 @@ const Footer = () => {
             <div className="container">
                 <div id="FooterRow" className='flex flex-col items-center justify-center gap-[60px]'>
                     {/* --------First Column--------   */}
-                    <div>
+                    <Link to={'/'}>
                         <img src={FooterLogo} alt="Logo" />
-                    </div>
+                    </Link>
                     <div className='text-[#fff] lg:text-[18px] text-sm font-jost font-medium flex lg:gap-[18px] gap-[8px]'>
                         <Link to={'/'}>Features</Link>
                         <span className='bg-[#ffffff34] w-[1px] h-[26px]'></span>
@@ -29,13 +29,13 @@ const Footer = () => {
                         <Link to={'/'}>Updates</Link>
                     </div>
                     <div className='flex items-center gap-[24px]'>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
                                 <FaFacebookF/>
                             </div>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
                                 <FaTwitter/>
                             </div>
-                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white'>
+                            <div className='p-[13px] bg-second text-[34px] rounded-full duration-[.3s] cursor-pointer text-white hover:bg-white hover:text-primary'>
                                 <RiInstagramFill />
                             </div>
                         </div>

@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
                 {/* -----------View More------------ */}
                 <div className='flex items-center justify-center mt-[60px]'>
-                    <Link className='bg-[#E5745D] text-white lg:py-[12px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D]' to={'/'}>Explore More</Link>
+                    <Link className='bg-[#E5745D] text-white lg:py-[12px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D] hover:bg-primary hover:outline-primary hover:rounded-2xl duration-300' to={'/'}>Explore More</Link>
                 </div>
 
             </div>

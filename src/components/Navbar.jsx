@@ -25,7 +25,7 @@ const Navbar = () => {
                     </div>
                     {/* ------Nav Buttons----- */}
                     <div>
-                        <Link className='bg-[#E5745D] text-white lg:py-[18px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D]' to={'/'}>Download Cv</Link>
+                        <Link className='bg-[#E5745D] text-white lg:py-[14px] py-[12px] px-[39px] font-jost text-[18px] border-2 border-[#fff] outline-4 outline-[#E5745D] hover:bg-primary hover:outline-primary hover:rounded-2xl duration-300' to={'/'}>Download Cv</Link>
                     </div>
                 </div>
             </div>
